@@ -1,0 +1,85 @@
+/* TITLES & TEXT */
+
+.section__title {
+    padding: .5rem 1.5rem;
+    display: inherit;
+    width: fit-content;
+    align-self: center;
+    background-color: var(--dry_blue);
+    border-radius: .5rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: var(--medium);
+    margin-bottom: 1rem;
+}
+
+.secondary__title {
+    font-weight: var(--medium);
+    font-size: 2rem;
+    color: var(--dark_blue);
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.tertiary__title {
+    font-weight: var(--medium);
+    font-size: 1.25rem;
+    color: var(--dark_blue);
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.text__primary {
+    color: var(--dark_blue);
+    font-weight: var(--regular);
+    font-size: 1.1rem;
+}
+
+.dark {
+    color: var(--white);
+}
+
+.medium {
+    color: var(--dry_blue)
+}
+
+/* BUTTON */
+
+.call-to-action__btn {
+    display: inline-block;
+    background-color: var(--dry_green);
+    color: var(--white);
+    border-radius: .8rem;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: .7rem;
+    max-width: 15rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.call-to-action__btn:hover {
+    background-color: transparent;
+    border: 2px solid var(--dry_green);
+    color: var(--dry_green);
+    transform: scale(1.05);
+}
+
+/* CLASSES FOR ANIMATION */
+
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1s;
+    transform: translateX(0);
+}

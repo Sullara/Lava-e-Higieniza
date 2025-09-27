@@ -1,0 +1,11 @@
+@import url(./variables.css);
+@import url(./globals.css);
+
+@import url(./components/navbar.css);
+@import url(./components/home.css);
+@import url(./components/steps.css);
+@import url(./components/about.css);
+@import url(./components/services.css);
+@import url(./components/feedbacks.css);
+@import url(./components/footer.css);
+@import url(./components/reusable-classes.css);

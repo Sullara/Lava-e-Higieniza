@@ -1,0 +1,35 @@
+.navbar {
+    max-width: calc(1500px - 4rem);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 0;
+    background-color: var(--dark_blue);
+}
+
+.navbar-brand img {
+    max-height: 2.5rem;
+}
+
+.navbar-toggler, .navbar-brand {
+    border: none;
+    color: transparent;
+}
+
+.nav-link {
+    padding-block: 1rem;
+}
+
+.nav-link:hover {
+    color: var(--dry_blue);
+}
+
+.tertiary__title.nav {
+    margin-bottom: 0;
+}
+
+@media (min-width: 425px) {
+    .navbar{
+        left: 2rem;
+        right: 2rem;
+    }
+}

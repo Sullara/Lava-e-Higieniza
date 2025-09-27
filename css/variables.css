@@ -1,0 +1,11 @@
+:root {
+    --dark_blue: rgb(0, 37, 61);
+    --dry_green: rgb(125, 166, 139);
+    --dry_blue: rgb(125, 152, 166);
+    
+    --white: rgb(245,245,245);
+
+    --semi-bold: 600;
+    --medium: 500;
+    --regular: 400;
+}

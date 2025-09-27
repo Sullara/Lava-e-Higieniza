@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- escrever descrição do site dps -->
+    <meta name="description" content="">
+    <meta name="keywords"
+        content="lavagem, higienização, carro, lavagem ecológica, estética automotiva, lava e higieniza">
+    <link rel="shortcut icon" type="imagex/png" href="./img/lava_e_higieniza_logo-Photoroom.png">
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!-- SwiperJS - CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/extends.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/lava-e-higieniza-logo.png">
+    <title>Lava e Higieniza</title>
+</head>
+
+<body>
+    <header>
+        <!----- NAVBAR ----->
+        <nav class="navbar navbar-expand-lg fixed-top mx-auto z-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/lava-e-higieniza-logo.png" alt="logo da lava e higieniza">
+                </a>
+
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-dark"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item">
+                            <a class="nav-link tertiary__title dark nav" href="#home">
+                                <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link tertiary__title dark nav" href="#steps">
+                                <span data-bs-target="#navbarSupportedContent"
+                                    data-bs-toggle="collapse">Agendamento</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link tertiary__title dark nav" href="#about">
+                                <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Sobre
+                                    Nós</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tertiary__title dark nav" href="#services">
+                                <span data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse">Serviços</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tertiary__title dark nav" href="#feedbacks">
+                                <span data-bs-target="#navbarSupportedContent"
+                                    data-bs-toggle="collapse">Feedbacks</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="home" id="home">
+            <video class="bg__video" autoplay muted loop>
+                <source src="./video/lava-e-higieniza-home.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeo.
+            </video>
+
+            <div class="presentation__area">
+                <div class="home_logo">
+                    <img src="./img/lava-e-higieniza-logo.png" alt="logo da empresa lava e higieniza">
+                </div>
+                <div class="presentation__area__info">
+                    <h1 class="primary__title dark">
+                        Higiene e estética em cada detalhe
+                    </h1>
+
+                    <p class="text__primary dark">
+                        Proteção duradoura para seu carro. Experimente nossos serviços!
+                    </p>
+
+                    <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                </div>
+            </div>
+        </main>
+
+        <div class="arrow__container">
+            <i class="bi bi-chevron-double-down"></i>
+        </div>
+    </header>
+
+    <!----- STEPS SECTION ----->
+
+    <section class="step-by-step__section" id="steps">
+        <div class="steps__title">
+            <div class="section__title">Agendamento</div>
+            <h2 class="secondary__title">Mantenha o seu carro como novo em apenas três passos</h2>
+        </div>
+
+        <div class="steps__container">
+            <div class="step hidden">
+                <span class="icon"><i class="bi bi-chat-left-quote-fill"></i></span>
+                <div class="step__info">
+                    <h3 class="tertiary__title">Entre em contato conosco</h3>
+                    <p class="text__primary">Informe-se e tire suas dúvidas com um de nossos atendentes</p>
+                </div>
+            </div>
+
+            <div class="step hidden">
+                <span class="icon"><i class="bi bi-calendar-check-fill"></i></i></span>
+                <div class="step__info">
+                    <h3 class="tertiary__title">Agende seu serviço</h3>
+                    <p class="text__primary">Agende a lavagem de acordo com o melhor horário para você</p>
+                </div>
+            </div>
+
+            <div class="step hidden">
+                <span class="icon"><i class="bi bi-car-front-fill"></i></span>
+                <div class="step__info">
+                    <h3 class="tertiary__title">Aproveite os benefícios</h3>
+                    <p class="text__primary">Desfrute do melhor da estética automotiva no conforto da sua casa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----- ABOUT SECTION ----->
+
+    <section class="about__section" id="about">
+        <div class="section__title">Quem somos</div>
+        <h2 class="secondary__title">Conheça a nossa empresa</h2>
+
+        <div class="grid__container">
+
+            <div class="text__area hidden">
+                <h3 class="tertiary__title">Nossa missão</h3>
+
+                <p class="text__primary">Acreditamos que um carro não é apenas um meio de transporte, mas uma extensão
+                    de seu dono. Por isso, nossa missão é proporcionar serviços de excelência em limpeza, proteção e
+                    revitalização automotiva.</p>
+            </div>
+
+            <div class="img__area hidden"><img src="./img/carro-verde.jpg" alt=""></div>
+
+
+            <div class="text__area hidden" id="A">
+                <h3 class="tertiary__title">Nossa visão</h3>
+
+                <p class="text__primary">Nosso objetivo é expandir nossa atuação, mantendo sempre o compromisso com a
+                    sustentabilidade e a evolução constante, para nos tornarmos a primeira escolha de quem valoriza o
+                    cuidado e a proteção do seu veículo.</p>
+            </div>
+
+            <div class="img__area hidden" id="B"><img src="./img/banco-branco.jpg" alt=""></div>
+
+            <div class="text__area hidden">
+                <h3 class="tertiary__title">Nosso interesse</h3>
+
+                <p class="text__primary">Criar relacionamentos duradouros com nossos clientes, oferecendo soluções
+                    personalizadas assegurando que seu carro receba o melhor tratamento possível, prolongando sua vida
+                    útil e mantendo seu aspecto como novo.</p>
+            </div>
+
+            <div class="img__area hidden"><img src="./img/carro-preto.jpg" alt=""></div>
+        </div>
+    </section>
+
+    <!----- SERVICES SECTION ----->
+
+    <section class="services" id="services">
+        <div class="section__title">Serviços</div>
+
+        <h2 class="secondary__title">Lavagens</h2>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="img__container-service">
+                            <img src="./img/pexels-torque-detail-3806966-7154635.jpg" alt="">
+                        </div>
+
+                        <div class="description__container">
+                            <h3 class="tertiary__title">Lavagem Básica</h3>
+
+                            <p class="text__primary">
+                                É a lavagem realizada com uma cera líquida especial
+                                que remove com facilidade a sujeira de todo veículo,
+                                desde os pneus até a pintura, completando com aspiração
+                                e limpeza simples toda a parte interna do veículo.
+                            </p>
+                        </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="img__container-service">
+                            <img src="./img/pexels-tima-miroshnichenko-6872175.jpg" alt="">
+                        </div>
+
+                        <div class="description__container">
+                            <h3 class="tertiary__title">Lavagem Premium</h3>
+
+                            <p class="text__primary">
+                                É uma lavagem técnica minuciosa que elimina sujeira
+                                visíveis, removendo resíduos como piche e partículas
+                                de asfalto que aderem no verniz devido a temperatura
+                                da estrada. Aplica-se a cera carnaúba que, além de
+                                descontaminar, dá brilho e hidrorepelência na pintura
+                                do veículo.
+                            </p>
+                        </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="img__container-service">
+                            <img src="./img/zac-nielson-M5lsL2E4ot0-unsplash.jpg" alt="">
+                        </div>
+
+                        <div class="description__container">
+                            <h3 class="tertiary__title">Lavagem Especial</h3>
+
+                            <p class="text__primary">
+                                Enceramento com uma cera composta por polímeros
+                                ativos que penetram profundamente na pintura, que
+                                ao ser aplicado de forma tecnicamente correta, corrige
+                                apenas imperfeições dando transferência ao verniz
+                                e abrindo a cor do veículo.
+                            </p>
+                        </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="img__container-service">
+                            <img src="./img/pexels-talal-6459729.jpg" alt="">
+                        </div>
+
+                        <div class="description__container">
+                            <h3 class="tertiary__title">Lavagem Sinergy</h3>
+
+                            <p class="text__primary">
+                                É a lavagem de avanço na tecnologia Carbosiloxy,
+                                que cria uma película hidrofóbica altamente durável,
+                                protegendo contra riscos e preservando o brilho.
+                            </p>
+                        </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="img__container-service">
+                            <img src="./img/pexels-mikebirdy-244818.jpg" alt="">
+                        </div>
+
+                        <div class="description__container">
+                            <h3 class="tertiary__title">Lavagem de Estofados</h3>
+
+                            <p class="text__primary">
+                                Lavagem detalhada do tecido dos bancos eliminando sujeiras
+                                e removendo possíveis manchas ou limpeza profunda em bancos
+                                revestidos de couro, que requer uma atenção especial devido
+                                a delicadeza da superfície.
+                            </p>
+                        </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <h2 class="secondary__title">Serviços</h2>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="img__container-service">
+                            <img src="./img/swansway-motor-group-C03ezP7tI10-unsplash.jpg" alt="">
+                        </div>
+
+                        <div class="description__container">
+                            <h3 class="tertiary__title">Vitrificação de Vidro</h4>
+
+                                <p class="text__primary">
+                                    É um revestimento especial composto por
+                                    silicatos e outros elementos químicos,
+                                    que integram a estrutura molecular do vidro.
+                                    Ele evita a fixação de poluentes, protege
+                                    contra riscos, fixa e brilho e amplia a
+                                    visibilidade.
+                                </p>
+                        </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="img__container-service">
+                            <img src="./img/pexels-andreevaleksandar-25189121.jpg" alt="">
+                        </div>
+
+                        <div class="description__container">
+                            <h3 class="tertiary__title">Higienização Interna</h3>
+
+                            <p class="text__primary">
+                                Processo de limpeza detalhada em todo
+                                componente interno do veículo. Esse
+                                serviço limpa, descontamina e hidrata
+                                toda a parte interna do carro.
+                            </p>
+                        </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="img__container-service">
+                            <img src="./img/pexels-julian-largo-622163228-17377918.jpg" alt="">
+                        </div>
+
+                        <div class="description__container">
+                            <h3 class="tertiary__title">Descontaminação de Pintura</h3>
+
+                            <p class="text__primary">
+                                É a aplicação de massa descontaminante que
+                                remove poluentes fixados no verniz como piche,
+                                tinta, resina de ávores, ferrugem e resíduos
+                                industriais.
+                            </p>
+                        </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="img__container-service">
+                            <img src="./img/maxim-hopman-_EWDJkjxk2o-unsplash.jpg" alt="">
+                        </div>
+
+                        <div class="description__container">
+                            <h3 class="tertiary__title">Descontaminação de Vidro</h3>
+
+                            <p class="text__primary">
+                                É o processo que remove impurezas e resíduos
+                                acumulados no parabrisa e janelas do carro.
+                            </p>
+                        </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="img__container-service">
+                            <img src="./img/pexels-bulat843-prayfor843-tg-1243575272-31389821.jpg" alt="">
+                        </div>
+
+                        <div class="description__container">
+                            <h3 class="tertiary__title">Oxi-sanitização Automotiva</h3>
+
+                            <p class="text__primary">
+                                Consiste na purificação do ar eliminando odores,
+                                bactérias, vírus e fungos em geral. O ozônio age
+                                como um oxidante, destruindo as paredes celulares
+                                desses microorganismos.
+                            </p>
+                        </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="img__container-service">
+                            <img src="./img/jack-lucas-smith-aQQ36nYGRX8-unsplash.jpg" alt="">
+                        </div>
+
+                        <div class="description__container">
+                            <h3 class="tertiary__title">Polimento Cristalizado</h3>
+
+                            <p class="text__primary">
+                                É um processo de espelhamento que forma uma camada
+                                protetora de mais de 3 meses de durabilidade, dando
+                                efeito de carro novo nas lavagens de manutenção.
+                            </p>
+                        </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="img__container-service">
+                            <img src="./img/ivan-kazlouskij-pl-QtnyFCIs-unsplash.jpg" alt="">
+                        </div>
+
+                        <div class="description__container">
+                            <h3 class="tertiary__title">Vitrificação de Faróis</h3>
+
+                            <p class="text__primary">
+                                Aplicação de um filme de proteção UV que deixa a
+                                superfície hidrofóbica e retaura a clareza e o
+                                brilho dos faróis, garantindo maior segurança e
+                                visibilidade. Com a manutenção das lavagens, a
+                                camada protetora pode durar até um ano.
+                            </p>
+                        </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="call-to-action__btn">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+    </section>
+
+    <!----- FEEDBACK SECTION ----->
+
+    <section class="feedback__section" id="feedbacks">
+        <div class="section__title">Feedbacks</div>
+        <h2 class="secondary__title">Saiba o que nossos clientes têm a dizer</h2>
+
+        <div class="container feedbacks__container">
+            <div class="row row-cols-1 row-cols-lg-2 g-4">
+                <div class="col p-0">
+                    <div class="card h-100 hidden">
+                        <img src="./img/cliente-1.jpg" class="card-img-top client__img" alt="...">
+
+                        <div class="star_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5 class="card-title tertiary__title">Leonardo</h5>
+                            <p class="card-text text__primary">Minha experiência com a DRYJET LE PARC foi sempre
+                                impecável. O
+                                atendimento dos funcionários é exemplar, sempre prestativos e cordiais, tornando cada
+                                interação agradável e eficiente. A qualidade do serviço é excepcional, demonstrando um
+                                compromisso genuíno com a satisfação do cliente. Além disso, a pontualidade é um
+                                diferencial que merece ser destacado - tudo sempre foi entregue conforme o combinado,
+                                sem atrasos ou imprevistos. Recomendo a DRYJET LE PARC a todos que buscam
+                                profissionalismo, qualidade e confiança!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col p-0">
+                    <div class="card h-100 hidden">
+                        <img src="./img/cliente-2.jpg" class="card-img-top client__img" alt="...">
+
+                        <div class="star_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5 class="card-title tertiary__title">Fernanda Queiroz</h5>
+                            <p class="card-text text__primary">Sou muito feliz com a Dryjet aqui do Le Parc.
+                                Além da comodidade de ter vocês em casa, tenho um serviço de qualidade e preço justo.
+                                Sem falar da atenção dos funcionários com os clientes, buscando sempre a nossa
+                                satisfação. É algo bem diferenciado do que se tem no mercado deste segmento.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col p-0">
+                    <div class="card h-100 hidden">
+                        <img src="./img/cliente-3.jpg" class="card-img-top client__img" alt="...">
+
+                        <div class="star_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5 class="card-title tertiary__title">Lucimar</h5>
+                            <p class="card-text text__primary">Gosto muito da empresa Dryjet no Le Parc, além da
+                                comodidade de estar
+                                sempre no condomínio os profissionais são muito atenciosos e educados.Espero sempre
+                                contar com este serviço disponível.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col p-0">
+                    <div class="card h-100 hidden">
+                        <img src="./img/cliente-4.jpg" class="card-img-top client__img" alt="...">
+
+                        <div class="star_rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+
+                        <div class="card-body p-0">
+                            <h5 class="card-title tertiary__title">Augusto Arruda</h5>
+                            <p class="card-text text__primary">Gosto demais da Dryjet leparc, sempre muito pontuais,
+                                serviço
+                                impecável… recomendo muito!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row">
+                
+            </div> -->
+        </div>
+    </section>
+
+    <!----- FOOTER SECTION ----->
+
+    <footer class="footer">
+        <div class="wrap">
+            <div class="footer__logo">
+                <img src="./img/lava-e-higieniza-logo.png" alt="logo da lava e higieniza">
+            </div>
+
+            <div class="footer__info">
+                <section class="info__container">
+                    <div class="footer__icon">
+                        <i class="bi bi-geo-alt"></i>
+                    </div>
+
+                    <address class="text__primary medium">
+                        <p class="tertiary__title dark">Endereço</p>
+                        Rua Ulhoa Cintra, 174<br>
+                        Santo Antônio, Recife - PE<br>
+                        CEP: 50010-020
+                    </address>
+                </section>
+
+                <section class="info__container">
+                    <div class="footer__icon">
+                        <i class="bi bi-person"></i>
+                    </div>
+
+                    <address class="text__primary medium">
+                        <p class="tertiary__title dark">Horários de Atendimento</p>
+                        Seg-Sex: 8:00h - 17:00h<br>
+                        Sáb: 8:00h - 17:30h<br>
+                    </address>
+                </section>
+
+                <section class="info__container">
+                    <div class="footer__icon">
+                        <i class="bi bi-telephone"></i>
+                    </div>
+
+                    <address class="text__primary medium">
+                        <p class="tertiary__title dark">Contato</p>
+                        <a href="https://api.whatsapp.com/send?phone=5581993837300" target="_blank" class="medium">(81) 99383-7300</a><br>
+                        <a href="mailto:contato@lavahigieniza.com" target="_blank" class="medium">contato@lavahigieniza.com</a>
+                    </address>
+                </section>
+            </div>
+        </div>
+
+        <hr>
+
+        <address class="copyright text__primary medium">34.805.561/0001-80 | &copy; 2025 All rights reserved</address>
+    </footer>
+
+    <!----- bootstrap js ----->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <!----- swiper JS ----->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!----- JS script ----->
+    <script defer src="./js/script.js"></script>
+</body>
+
+</html>

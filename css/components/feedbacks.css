@@ -1,0 +1,19 @@
+.feedback__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.client__img {
+    border-radius: 50%;
+    max-width: 10rem;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.star_rating {
+    font-size: 1.5rem;
+    color: var(--dry_green);
+}
